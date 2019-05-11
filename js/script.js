@@ -2,7 +2,7 @@ $(function() {
     "use strict";
     function menuscroll() {
         var $navmenu = $('.nav-menu');
-        if ($(window).scrollTop() >30) {
+        if ($(window).scrollTop() >670) {
             $navmenu.addClass('is-scrolling');
 
         } else {
